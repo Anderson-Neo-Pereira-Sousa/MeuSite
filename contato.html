@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: antiquewhite;
+            color: darkslategray;
+            text-align: 20px;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            background-color: darkslategray;
+            text-decoration: none;
+        }
+
+        nav {
+            background-color: darkslategray;
+            border-top: 2px solid antiquewhite;
+        }
+
+        .menu {
+            justify-content: center;
+            gap: 20px;
+        }
+
+        li {float: left; padding: 20px;}
+
+        a {text-decoration: none; color: antiquewhite; font-size: 20px;}
+
+        section {
+            padding: 15px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header class="container menu">
+        <ul style="list-style-type: none;">
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </header>
+
+    <nav class="container">
+        <h1 style="color: antiquewhite; text-align: center;"> Contato</h1>
+    </nav>
+
+    <section>
+        <h2>Caso queira falar comigo: </h2>
+        <form action="" method="">
+            <table>
+            <tr>
+                <th><label for="nome">nome:</label></th>
+                <td><input type="text" name='name' id='nome' </td>
+            </tr>
+            <tr>
+                <th><label for="email">email:</label></th>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <th><label for="msg">Digite uma mensagem</label></th>
+                <td><textarea name="msg" rows="5" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>\
+                <td><button>Enviar</button></td>
+            </tr>
+            </table>
+    </section>
+</body>
+</html>

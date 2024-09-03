@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: antiquewhite;
+            color: darkslategray;
+            text-align: 20px;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            background-color: darkslategray;
+            text-decoration: none;
+        }
+
+        nav {
+            background-color: darkslategray;
+            border-top: 2px solid antiquewhite;
+        }
+
+        .menu {
+            justify-content: center;
+            gap: 20px;
+        }
+
+        li {float: left; padding: 20px;}
+
+        a {text-decoration: none; color: antiquewhite; font-size: 20px;}
+
+        section {
+            padding: 15px;
+            text-align: justify;
+            width: 70%;
+        }
+        .imagem {
+            width: 50%;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header class="container menu">
+        <ul style="list-style-type: none;">
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </header>
+
+    <nav class="container">
+        <h1 style="color: antiquewhite; text-align: center;"> Portfólio</h1>
+    </nav>
+
+    <section>
+        <h1>Meu Portfólio: </h1>
+        <br>
+        <p style="font-size: 22px;">Projeto da Disciplina de Banco de Dados Relacional - Uninter: </p>
+        <p>Era necessário criar um banco de dados relacional para uma livraria. Para isso, seria preciso criar o modelo entidade-relacionamento e, em seguida, criar o banco de dados usando o modelo feito. </p>
+        <br>
+        <img src="Imagens/banco de dados01.png" alt="imagem do projeto de banco de dados" class="imagem">
+        <p>Criação do Modelo Entidade-Relacionamento</p>
+        <br>
+        <img src="Imagens/banco de dado02.png" alt=" 2 imagem do projeto de banco de dados" class="imagem">
+        <p>Uma pesquisa feita pelo Banco de Dados</p>
+        <br>
+        <br>
+        <p style="font-size: 22px;">Projeto da Disciplina Programação Web - Uninter: </p>
+        <p>Projeto tirado de uma aula da disciplina sobre os diferentes tipos de layout depedendo do tamanho da tela.</p>
+        <br>
+        <img src="Imagens/imagemNormal.png" alt="imagem do computador" class="imagem">
+        <p>Imagem do computador</p>
+        <br>
+        <img src="Imagens/imagemCelulaR.png" alt="imagem do celular" style="width: 30%;">
+        <p>Imagem do celular</p>
+
+    </section>
+</body>
+</html>
